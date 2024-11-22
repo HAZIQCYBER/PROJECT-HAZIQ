@@ -1,0 +1,249 @@
+2024-11-19 19:21:12,562 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2024-11-19 19:21:12,563 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 19:21:12,564 - INFO -  * Restarting with stat
+2024-11-19 19:21:13,574 - WARNING -  * Debugger is active!
+2024-11-19 19:21:13,579 - INFO -  * Debugger PIN: 711-371-561
+2024-11-19 19:21:45,282 - INFO - 127.0.0.1 - - [19/Nov/2024 19:21:45] "GET /dashboard HTTP/1.1" 200 -
+2024-11-19 19:21:46,053 - INFO - 127.0.0.1 - - [19/Nov/2024 19:21:46] "GET /dashboard HTTP/1.1" 200 -
+2024-11-19 19:21:47,348 - INFO - 127.0.0.1 - - [19/Nov/2024 19:21:47] "GET /two_factor HTTP/1.1" 200 -
+2024-11-19 19:21:47,560 - INFO - 127.0.0.1 - - [19/Nov/2024 19:21:47] "GET / HTTP/1.1" 200 -
+2024-11-19 19:24:09,834 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2024-11-19 19:24:09,834 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 19:24:09,836 - INFO -  * Restarting with stat
+2024-11-19 19:24:10,736 - WARNING -  * Debugger is active!
+2024-11-19 19:24:10,741 - INFO -  * Debugger PIN: 711-371-561
+2024-11-19 19:24:15,462 - INFO - 127.0.0.1 - - [19/Nov/2024 19:24:15] "GET / HTTP/1.1" 200 -
+2024-11-19 19:24:15,524 - INFO - 127.0.0.1 - - [19/Nov/2024 19:24:15] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-19 19:24:26,859 - INFO - 127.0.0.1 - - [19/Nov/2024 19:24:26] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-11-19 19:24:26,884 - INFO - 127.0.0.1 - - [19/Nov/2024 19:24:26] "GET /two_factor HTTP/1.1" 200 -
+2024-11-19 19:24:26,974 - INFO - 127.0.0.1 - - [19/Nov/2024 19:24:26] "GET /static/qr.png HTTP/1.1" 200 -
+2024-11-19 19:24:40,405 - INFO - 2FA success for user: pakkarim
+2024-11-19 19:24:40,406 - INFO - 127.0.0.1 - - [19/Nov/2024 19:24:40] "[32mPOST /two_factor HTTP/1.1[0m" 302 -
+2024-11-19 19:24:40,417 - INFO - 127.0.0.1 - - [19/Nov/2024 19:24:40] "GET /dashboard HTTP/1.1" 200 -
+2024-11-19 19:24:47,640 - INFO - 127.0.0.1 - - [19/Nov/2024 19:24:47] "GET /register_member HTTP/1.1" 200 -
+2024-11-19 19:24:51,177 - INFO - 127.0.0.1 - - [19/Nov/2024 19:24:51] "[32mPOST /register_member HTTP/1.1[0m" 302 -
+2024-11-19 19:24:51,189 - INFO - 127.0.0.1 - - [19/Nov/2024 19:24:51] "GET /view_members HTTP/1.1" 200 -
+2024-11-19 19:25:24,654 - INFO - 127.0.0.1 - - [19/Nov/2024 19:25:24] "GET /dashboard HTTP/1.1" 200 -
+2024-11-19 19:25:27,774 - INFO - 127.0.0.1 - - [19/Nov/2024 19:25:27] "GET /view_classes HTTP/1.1" 200 -
+2024-11-19 19:25:27,799 - INFO - 127.0.0.1 - - [19/Nov/2024 19:25:27] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-19 19:25:30,408 - INFO - 127.0.0.1 - - [19/Nov/2024 19:25:30] "GET /add_member HTTP/1.1" 200 -
+2024-11-19 19:25:30,433 - INFO - 127.0.0.1 - - [19/Nov/2024 19:25:30] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-19 19:25:38,752 - INFO - Member added by pakkarim - Name: haziq, Status: haziq123
+2024-11-19 19:25:38,753 - INFO - 127.0.0.1 - - [19/Nov/2024 19:25:38] "[32mPOST /add_member HTTP/1.1[0m" 302 -
+2024-11-19 19:25:38,762 - INFO - 127.0.0.1 - - [19/Nov/2024 19:25:38] "GET /view_members HTTP/1.1" 200 -
+2024-11-19 19:26:39,684 - INFO - 127.0.0.1 - - [19/Nov/2024 19:26:39] "[32mPOST /delete_member/1 HTTP/1.1[0m" 302 -
+2024-11-19 19:26:39,690 - INFO - 127.0.0.1 - - [19/Nov/2024 19:26:39] "GET /view_members HTTP/1.1" 200 -
+2024-11-19 19:26:46,523 - INFO - 127.0.0.1 - - [19/Nov/2024 19:26:46] "[32mPOST /delete_member/2 HTTP/1.1[0m" 302 -
+2024-11-19 19:26:46,532 - INFO - 127.0.0.1 - - [19/Nov/2024 19:26:46] "GET /view_members HTTP/1.1" 200 -
+2024-11-21 19:25:40,318 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2024-11-21 19:25:40,319 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-21 19:25:40,321 - INFO -  * Restarting with stat
+2024-11-21 19:25:41,400 - WARNING -  * Debugger is active!
+2024-11-21 19:25:41,407 - INFO -  * Debugger PIN: 595-166-838
+2024-11-21 19:25:47,644 - INFO - 127.0.0.1 - - [21/Nov/2024 19:25:47] "GET / HTTP/1.1" 200 -
+2024-11-21 19:25:47,726 - INFO - 127.0.0.1 - - [21/Nov/2024 19:25:47] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-21 19:25:48,274 - INFO - 127.0.0.1 - - [21/Nov/2024 19:25:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-21 19:26:02,022 - INFO - 127.0.0.1 - - [21/Nov/2024 19:26:02] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-11-21 19:26:02,051 - INFO - 127.0.0.1 - - [21/Nov/2024 19:26:02] "GET /two_factor HTTP/1.1" 200 -
+2024-11-21 19:26:02,195 - INFO - 127.0.0.1 - - [21/Nov/2024 19:26:02] "GET /static/qr.png HTTP/1.1" 200 -
+2024-11-21 19:34:26,288 - INFO - 127.0.0.1 - - [21/Nov/2024 19:34:26] "GET / HTTP/1.1" 200 -
+2024-11-21 21:22:16,573 - INFO - 127.0.0.1 - - [21/Nov/2024 21:22:16] "GET / HTTP/1.1" 200 -
+2024-11-21 21:22:16,628 - INFO - 127.0.0.1 - - [21/Nov/2024 21:22:16] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-21 21:22:42,947 - INFO - 127.0.0.1 - - [21/Nov/2024 21:22:42] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-11-21 21:22:42,977 - INFO - 127.0.0.1 - - [21/Nov/2024 21:22:42] "GET /two_factor HTTP/1.1" 200 -
+2024-11-21 21:22:43,020 - INFO - 127.0.0.1 - - [21/Nov/2024 21:22:43] "GET /static/qr.png HTTP/1.1" 200 -
+2024-11-21 21:23:37,901 - INFO - 2FA success for user: pakkarim
+2024-11-21 21:23:37,904 - INFO - 127.0.0.1 - - [21/Nov/2024 21:23:37] "[32mPOST /two_factor HTTP/1.1[0m" 302 -
+2024-11-21 21:23:37,937 - INFO - 127.0.0.1 - - [21/Nov/2024 21:23:37] "GET /dashboard HTTP/1.1" 200 -
+2024-11-21 21:23:53,184 - INFO - User pakkarim logged out.
+2024-11-21 21:23:53,185 - INFO - 127.0.0.1 - - [21/Nov/2024 21:23:53] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-11-21 21:23:53,194 - INFO - 127.0.0.1 - - [21/Nov/2024 21:23:53] "GET / HTTP/1.1" 200 -
+2024-11-21 21:23:53,233 - INFO - 127.0.0.1 - - [21/Nov/2024 21:23:53] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-21 21:24:21,331 - INFO - 127.0.0.1 - - [21/Nov/2024 21:24:21] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-11-21 21:24:21,355 - INFO - 127.0.0.1 - - [21/Nov/2024 21:24:21] "GET /two_factor HTTP/1.1" 200 -
+2024-11-21 21:24:21,387 - INFO - 127.0.0.1 - - [21/Nov/2024 21:24:21] "GET /static/qr.png HTTP/1.1" 200 -
+2024-11-21 21:25:07,976 - INFO - 127.0.0.1 - - [21/Nov/2024 21:25:07] "GET / HTTP/1.1" 200 -
+2024-11-21 21:25:56,907 - INFO - 127.0.0.1 - - [21/Nov/2024 21:25:56] "POST / HTTP/1.1" 200 -
+2024-11-21 21:25:56,947 - INFO - 127.0.0.1 - - [21/Nov/2024 21:25:56] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-21 21:27:55,336 - INFO -  * Detected change in 'c:\\Users\\Haziq zahidi\\Desktop\\gym\\gym-env\\app.py', reloading
+2024-11-21 21:27:55,566 - INFO -  * Restarting with stat
+2024-11-21 21:27:56,825 - WARNING -  * Debugger is active!
+2024-11-21 21:27:56,832 - INFO -  * Debugger PIN: 595-166-838
+2024-11-21 21:27:59,941 - INFO -  * Detected change in 'c:\\Users\\Haziq zahidi\\Desktop\\gym\\gym-env\\app.py', reloading
+2024-11-21 21:27:59,989 - INFO -  * Restarting with stat
+2024-11-21 21:28:01,008 - WARNING -  * Debugger is active!
+2024-11-21 21:28:01,011 - INFO -  * Debugger PIN: 595-166-838
+2024-11-21 21:28:15,561 - INFO - 127.0.0.1 - - [21/Nov/2024 21:28:15] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-11-21 21:28:15,586 - INFO - 127.0.0.1 - - [21/Nov/2024 21:28:15] "GET /two_factor HTTP/1.1" 200 -
+2024-11-21 21:28:15,724 - INFO - 127.0.0.1 - - [21/Nov/2024 21:28:15] "GET /static/qr.png HTTP/1.1" 200 -
+2024-11-21 21:39:37,582 - INFO -  * Detected change in 'c:\\Users\\Haziq zahidi\\Desktop\\gym\\gym-env\\app.py', reloading
+2024-11-21 21:39:37,668 - INFO -  * Restarting with stat
+2024-11-21 21:39:38,635 - WARNING -  * Debugger is active!
+2024-11-21 21:39:38,640 - INFO -  * Debugger PIN: 595-166-838
+2024-11-21 21:39:50,674 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2024-11-21 21:39:50,674 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-21 21:39:50,675 - INFO -  * Restarting with stat
+2024-11-21 21:39:51,451 - WARNING -  * Debugger is active!
+2024-11-21 21:39:51,453 - INFO -  * Debugger PIN: 595-166-838
+2024-11-21 21:39:58,687 - INFO - 127.0.0.1 - - [21/Nov/2024 21:39:58] "GET / HTTP/1.1" 200 -
+2024-11-21 21:39:58,731 - INFO - 127.0.0.1 - - [21/Nov/2024 21:39:58] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-21 21:40:10,009 - INFO - 127.0.0.1 - - [21/Nov/2024 21:40:10] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-11-21 21:40:10,035 - INFO - 127.0.0.1 - - [21/Nov/2024 21:40:10] "GET /two_factor HTTP/1.1" 200 -
+2024-11-21 21:40:10,144 - INFO - 127.0.0.1 - - [21/Nov/2024 21:40:10] "GET /static/qr.png HTTP/1.1" 200 -
+2024-11-21 22:34:23,438 - INFO -  * Detected change in 'c:\\Users\\Haziq zahidi\\Desktop\\gym\\gym-env\\app.py', reloading
+2024-11-21 22:34:23,548 - INFO -  * Detected change in 'c:\\Users\\Haziq zahidi\\Desktop\\gym\\gym-env\\app.py', reloading
+2024-11-21 22:34:23,643 - INFO -  * Restarting with stat
+2024-11-21 22:34:23,750 - INFO -  * Restarting with stat
+2024-11-21 22:34:24,747 - WARNING -  * Debugger is active!
+2024-11-21 22:34:24,751 - INFO -  * Debugger PIN: 595-166-838
+2024-11-21 22:34:24,764 - WARNING -  * Debugger is active!
+2024-11-21 22:34:24,769 - INFO -  * Debugger PIN: 595-166-838
+2024-11-21 22:34:25,820 - INFO -  * Detected change in 'c:\\Users\\Haziq zahidi\\Desktop\\gym\\gym-env\\app.py', reloading
+2024-11-21 22:34:25,829 - INFO -  * Detected change in 'c:\\Users\\Haziq zahidi\\Desktop\\gym\\gym-env\\app.py', reloading
+2024-11-21 22:34:25,911 - INFO -  * Restarting with stat
+2024-11-21 22:34:25,918 - INFO -  * Restarting with stat
+2024-11-21 22:34:27,004 - WARNING -  * Debugger is active!
+2024-11-21 22:34:27,006 - INFO -  * Debugger PIN: 595-166-838
+2024-11-21 22:34:27,026 - WARNING -  * Debugger is active!
+2024-11-21 22:34:27,030 - INFO -  * Debugger PIN: 595-166-838
+2024-11-21 23:17:14,220 - INFO -  * Detected change in 'c:\\Users\\Haziq zahidi\\Desktop\\gym\\gym-env\\app.py', reloading
+2024-11-21 23:17:14,221 - INFO -  * Detected change in 'c:\\Users\\Haziq zahidi\\Desktop\\gym\\gym-env\\app.py', reloading
+2024-11-21 23:17:14,449 - INFO -  * Restarting with stat
+2024-11-21 23:17:14,449 - INFO -  * Restarting with stat
+2024-11-21 23:17:15,809 - WARNING -  * Debugger is active!
+2024-11-21 23:17:15,809 - WARNING -  * Debugger is active!
+2024-11-21 23:17:15,815 - INFO -  * Debugger PIN: 595-166-838
+2024-11-21 23:17:15,815 - INFO -  * Debugger PIN: 595-166-838
+2024-11-22 04:20:14,073 - INFO - 127.0.0.1 - - [22/Nov/2024 04:20:14] "GET / HTTP/1.1" 200 -
+2024-11-22 04:20:14,084 - INFO - 127.0.0.1 - - [22/Nov/2024 04:20:14] "GET / HTTP/1.1" 200 -
+2024-11-22 04:20:14,116 - INFO - 127.0.0.1 - - [22/Nov/2024 04:20:14] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 04:20:14,125 - INFO - 127.0.0.1 - - [22/Nov/2024 04:20:14] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 04:20:15,298 - INFO - 127.0.0.1 - - [22/Nov/2024 04:20:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-22 04:20:15,313 - INFO - 127.0.0.1 - - [22/Nov/2024 04:20:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-22 04:23:58,419 - INFO - 127.0.0.1 - - [22/Nov/2024 04:23:58] "POST / HTTP/1.1" 200 -
+2024-11-22 04:23:58,444 - INFO - 127.0.0.1 - - [22/Nov/2024 04:23:58] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 04:24:06,735 - INFO - 127.0.0.1 - - [22/Nov/2024 04:24:06] "POST / HTTP/1.1" 200 -
+2024-11-22 04:24:06,767 - INFO - 127.0.0.1 - - [22/Nov/2024 04:24:06] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 04:24:07,982 - INFO - 127.0.0.1 - - [22/Nov/2024 04:24:07] "POST / HTTP/1.1" 200 -
+2024-11-22 04:24:08,015 - INFO - 127.0.0.1 - - [22/Nov/2024 04:24:08] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 04:24:08,535 - INFO - 127.0.0.1 - - [22/Nov/2024 04:24:08] "POST / HTTP/1.1" 200 -
+2024-11-22 04:24:08,564 - INFO - 127.0.0.1 - - [22/Nov/2024 04:24:08] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 04:25:18,073 - INFO - 127.0.0.1 - - [22/Nov/2024 04:25:18] "POST / HTTP/1.1" 200 -
+2024-11-22 04:25:18,096 - INFO - 127.0.0.1 - - [22/Nov/2024 04:25:18] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 04:25:25,584 - INFO - 127.0.0.1 - - [22/Nov/2024 04:25:25] "POST / HTTP/1.1" 200 -
+2024-11-22 04:25:25,616 - INFO - 127.0.0.1 - - [22/Nov/2024 04:25:25] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 05:47:27,166 - INFO - The CSRF token has expired.
+2024-11-22 05:47:27,172 - INFO - 127.0.0.1 - - [22/Nov/2024 05:47:27] "POST / HTTP/1.1" 200 -
+2024-11-22 05:47:27,206 - INFO - 127.0.0.1 - - [22/Nov/2024 05:47:27] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 09:14:18,746 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2024-11-22 09:14:18,746 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-22 09:14:18,749 - INFO -  * Restarting with stat
+2024-11-22 09:14:19,692 - WARNING -  * Debugger is active!
+2024-11-22 09:14:19,697 - INFO -  * Debugger PIN: 595-166-838
+2024-11-22 09:14:25,952 - INFO - 127.0.0.1 - - [22/Nov/2024 09:14:25] "GET / HTTP/1.1" 200 -
+2024-11-22 09:14:25,983 - INFO - 127.0.0.1 - - [22/Nov/2024 09:14:25] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 09:24:04,001 - INFO - 127.0.0.1 - - [22/Nov/2024 09:24:04] "GET / HTTP/1.1" 200 -
+2024-11-22 09:24:04,097 - INFO - 127.0.0.1 - - [22/Nov/2024 09:24:04] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 09:24:21,524 - INFO - 127.0.0.1 - - [22/Nov/2024 09:24:21] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-11-22 09:24:21,555 - INFO - 127.0.0.1 - - [22/Nov/2024 09:24:21] "GET /two_factor HTTP/1.1" 200 -
+2024-11-22 09:24:21,703 - INFO - 127.0.0.1 - - [22/Nov/2024 09:24:21] "GET /static/qr.png HTTP/1.1" 200 -
+2024-11-22 09:46:51,626 - INFO - 127.0.0.1 - - [22/Nov/2024 09:46:51] "GET / HTTP/1.1" 200 -
+2024-11-22 09:46:51,652 - INFO - 127.0.0.1 - - [22/Nov/2024 09:46:51] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 09:47:09,370 - INFO - 127.0.0.1 - - [22/Nov/2024 09:47:09] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-11-22 09:47:09,394 - INFO - 127.0.0.1 - - [22/Nov/2024 09:47:09] "GET /two_factor HTTP/1.1" 200 -
+2024-11-22 09:47:09,426 - INFO - 127.0.0.1 - - [22/Nov/2024 09:47:09] "GET /static/qr.png HTTP/1.1" 200 -
+2024-11-22 09:47:16,690 - INFO - 2FA success for user: pakkarim
+2024-11-22 09:47:16,693 - INFO - 127.0.0.1 - - [22/Nov/2024 09:47:16] "[32mPOST /two_factor HTTP/1.1[0m" 302 -
+2024-11-22 09:47:16,717 - INFO - 127.0.0.1 - - [22/Nov/2024 09:47:16] "GET /dashboard HTTP/1.1" 200 -
+2024-11-22 09:47:19,826 - INFO - 127.0.0.1 - - [22/Nov/2024 09:47:19] "GET /register_member HTTP/1.1" 200 -
+2024-11-22 09:47:24,196 - INFO - 127.0.0.1 - - [22/Nov/2024 09:47:24] "[32mPOST /register_member HTTP/1.1[0m" 302 -
+2024-11-22 09:47:24,215 - INFO - 127.0.0.1 - - [22/Nov/2024 09:47:24] "GET /view_members HTTP/1.1" 200 -
+2024-11-22 09:47:41,644 - INFO - 127.0.0.1 - - [22/Nov/2024 09:47:41] "GET /member/1/classes HTTP/1.1" 200 -
+2024-11-22 09:47:43,768 - INFO - 127.0.0.1 - - [22/Nov/2024 09:47:43] "GET /view_members HTTP/1.1" 200 -
+2024-11-22 09:47:45,342 - INFO - 127.0.0.1 - - [22/Nov/2024 09:47:45] "GET /register_class/1 HTTP/1.1" 200 -
+2024-11-22 09:47:46,277 - INFO - 127.0.0.1 - - [22/Nov/2024 09:47:46] "GET /view_members HTTP/1.1" 200 -
+2024-11-22 09:47:47,613 - INFO - 127.0.0.1 - - [22/Nov/2024 09:47:47] "GET /register_class/1 HTTP/1.1" 200 -
+2024-11-22 09:47:48,929 - INFO - 127.0.0.1 - - [22/Nov/2024 09:47:48] "[32mPOST /register_class/1 HTTP/1.1[0m" 302 -
+2024-11-22 09:47:48,935 - INFO - 127.0.0.1 - - [22/Nov/2024 09:47:48] "GET /member/1/classes HTTP/1.1" 200 -
+2024-11-22 09:48:33,325 - INFO - 127.0.0.1 - - [22/Nov/2024 09:48:33] "GET /view_members HTTP/1.1" 200 -
+2024-11-22 09:50:28,315 - INFO - 127.0.0.1 - - [22/Nov/2024 09:50:28] "[32mPOST /delete_member/1 HTTP/1.1[0m" 302 -
+2024-11-22 09:50:28,323 - INFO - 127.0.0.1 - - [22/Nov/2024 09:50:28] "GET /view_members HTTP/1.1" 200 -
+2024-11-22 09:50:37,357 - INFO - 127.0.0.1 - - [22/Nov/2024 09:50:37] "GET /dashboard HTTP/1.1" 200 -
+2024-11-22 09:53:57,346 - INFO - User pakkarim logged out.
+2024-11-22 09:53:57,347 - INFO - 127.0.0.1 - - [22/Nov/2024 09:53:57] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-11-22 09:53:57,358 - INFO - 127.0.0.1 - - [22/Nov/2024 09:53:57] "GET / HTTP/1.1" 200 -
+2024-11-22 09:53:57,404 - INFO - 127.0.0.1 - - [22/Nov/2024 09:53:57] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 09:54:30,150 - INFO - 127.0.0.1 - - [22/Nov/2024 09:54:30] "POST / HTTP/1.1" 200 -
+2024-11-22 09:54:30,178 - INFO - 127.0.0.1 - - [22/Nov/2024 09:54:30] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 10:08:13,546 - INFO - 127.0.0.1 - - [22/Nov/2024 10:08:13] "GET / HTTP/1.1" 200 -
+2024-11-22 10:08:20,383 - INFO - 127.0.0.1 - - [22/Nov/2024 10:08:20] "POST / HTTP/1.1" 200 -
+2024-11-22 10:08:20,410 - INFO - 127.0.0.1 - - [22/Nov/2024 10:08:20] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 10:12:50,320 - INFO - 127.0.0.1 - - [22/Nov/2024 10:12:50] "GET /two_factor HTTP/1.1" 200 -
+2024-11-22 10:12:50,367 - INFO - 127.0.0.1 - - [22/Nov/2024 10:12:50] "GET /static/qr.png HTTP/1.1" 200 -
+2024-11-22 10:12:53,291 - INFO - 127.0.0.1 - - [22/Nov/2024 10:12:53] "GET / HTTP/1.1" 200 -
+2024-11-22 10:24:14,103 - INFO -  * Detected change in 'c:\\Users\\Haziq zahidi\\Desktop\\gym\\gym-env\\app.py', reloading
+2024-11-22 10:24:14,409 - INFO -  * Restarting with stat
+2024-11-22 10:24:15,700 - WARNING -  * Debugger is active!
+2024-11-22 10:24:15,712 - INFO -  * Debugger PIN: 595-166-838
+2024-11-22 10:24:25,620 - INFO - 127.0.0.1 - - [22/Nov/2024 10:24:25] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-11-22 10:24:25,837 - INFO - 127.0.0.1 - - [22/Nov/2024 10:24:25] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-11-22 10:24:25,842 - INFO - 127.0.0.1 - - [22/Nov/2024 10:24:25] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-11-22 10:24:25,892 - INFO - 127.0.0.1 - - [22/Nov/2024 10:24:25] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=GVCOQeshf5dRrxxxdXB0 HTTP/1.1" 200 -
+2024-11-22 10:24:25,930 - INFO - 127.0.0.1 - - [22/Nov/2024 10:24:25] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-11-22 10:24:26,662 - INFO - 127.0.0.1 - - [22/Nov/2024 10:24:26] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-11-22 10:24:26,684 - INFO - 127.0.0.1 - - [22/Nov/2024 10:24:26] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-22 10:24:26,685 - INFO - 127.0.0.1 - - [22/Nov/2024 10:24:26] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-22 10:24:26,700 - INFO - 127.0.0.1 - - [22/Nov/2024 10:24:26] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=GVCOQeshf5dRrxxxdXB0 HTTP/1.1[0m" 304 -
+2024-11-22 10:24:26,725 - INFO - 127.0.0.1 - - [22/Nov/2024 10:24:26] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-22 10:26:57,867 - INFO -  * Detected change in 'c:\\Users\\Haziq zahidi\\Desktop\\gym\\gym-env\\app.py', reloading
+2024-11-22 10:26:57,928 - INFO -  * Restarting with stat
+2024-11-22 10:26:58,834 - WARNING -  * Debugger is active!
+2024-11-22 10:26:58,836 - INFO -  * Debugger PIN: 595-166-838
+2024-11-22 10:27:06,992 - INFO - 127.0.0.1 - - [22/Nov/2024 10:27:06] "GET / HTTP/1.1" 200 -
+2024-11-22 10:27:07,018 - INFO - 127.0.0.1 - - [22/Nov/2024 10:27:07] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 10:27:09,551 - INFO - 127.0.0.1 - - [22/Nov/2024 10:27:09] "GET / HTTP/1.1" 200 -
+2024-11-22 10:27:09,595 - INFO - 127.0.0.1 - - [22/Nov/2024 10:27:09] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 10:27:10,292 - INFO - 127.0.0.1 - - [22/Nov/2024 10:27:10] "GET / HTTP/1.1" 200 -
+2024-11-22 10:27:10,330 - INFO - 127.0.0.1 - - [22/Nov/2024 10:27:10] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 10:27:10,577 - INFO - 127.0.0.1 - - [22/Nov/2024 10:27:10] "GET / HTTP/1.1" 200 -
+2024-11-22 10:27:10,606 - INFO - 127.0.0.1 - - [22/Nov/2024 10:27:10] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 10:27:10,969 - INFO - 127.0.0.1 - - [22/Nov/2024 10:27:10] "GET / HTTP/1.1" 200 -
+2024-11-22 10:27:11,003 - INFO - 127.0.0.1 - - [22/Nov/2024 10:27:11] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 10:27:11,311 - INFO - 127.0.0.1 - - [22/Nov/2024 10:27:11] "GET / HTTP/1.1" 200 -
+2024-11-22 10:27:11,345 - INFO - 127.0.0.1 - - [22/Nov/2024 10:27:11] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 10:27:11,657 - INFO - 127.0.0.1 - - [22/Nov/2024 10:27:11] "GET / HTTP/1.1" 200 -
+2024-11-22 10:27:11,689 - INFO - 127.0.0.1 - - [22/Nov/2024 10:27:11] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 10:27:12,005 - INFO - 127.0.0.1 - - [22/Nov/2024 10:27:12] "GET / HTTP/1.1" 200 -
+2024-11-22 10:27:12,039 - INFO - 127.0.0.1 - - [22/Nov/2024 10:27:12] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 10:27:12,351 - INFO - 127.0.0.1 - - [22/Nov/2024 10:27:12] "GET / HTTP/1.1" 200 -
+2024-11-22 10:27:12,385 - INFO - 127.0.0.1 - - [22/Nov/2024 10:27:12] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 10:27:32,978 - INFO - 127.0.0.1 - - [22/Nov/2024 10:27:32] "GET / HTTP/1.1" 200 -
+2024-11-22 10:27:33,011 - INFO - 127.0.0.1 - - [22/Nov/2024 10:27:33] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 10:27:33,923 - INFO - 127.0.0.1 - - [22/Nov/2024 10:27:33] "GET / HTTP/1.1" 200 -
+2024-11-22 10:27:33,944 - INFO - 127.0.0.1 - - [22/Nov/2024 10:27:33] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 10:27:34,731 - INFO - 127.0.0.1 - - [22/Nov/2024 10:27:34] "GET / HTTP/1.1" 200 -
+2024-11-22 10:27:34,756 - INFO - 127.0.0.1 - - [22/Nov/2024 10:27:34] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 10:27:45,507 - INFO - 127.0.0.1 - - [22/Nov/2024 10:27:45] "GET / HTTP/1.1" 200 -
+2024-11-22 10:27:45,530 - INFO - 127.0.0.1 - - [22/Nov/2024 10:27:45] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 10:27:50,549 - INFO - 127.0.0.1 - - [22/Nov/2024 10:27:50] "GET / HTTP/1.1" 200 -
+2024-11-22 10:27:50,587 - INFO - 127.0.0.1 - - [22/Nov/2024 10:27:50] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 14:29:52,031 - INFO - The CSRF token has expired.
+2024-11-22 14:29:52,036 - INFO - 127.0.0.1 - - [22/Nov/2024 14:29:52] "POST / HTTP/1.1" 200 -
+2024-11-22 14:29:52,090 - INFO - 127.0.0.1 - - [22/Nov/2024 14:29:52] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 14:29:56,752 - INFO - 127.0.0.1 - - [22/Nov/2024 14:29:56] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-11-22 14:29:56,780 - INFO - 127.0.0.1 - - [22/Nov/2024 14:29:56] "GET /two_factor HTTP/1.1" 200 -
+2024-11-22 14:29:56,913 - INFO - 127.0.0.1 - - [22/Nov/2024 14:29:56] "GET /static/qr.png HTTP/1.1" 200 -
+2024-11-22 14:34:07,542 - INFO - The CSRF token has expired.
+2024-11-22 14:34:07,543 - INFO - 127.0.0.1 - - [22/Nov/2024 14:34:07] "POST / HTTP/1.1" 200 -
+2024-11-22 14:34:07,567 - INFO - 127.0.0.1 - - [22/Nov/2024 14:34:07] "[33mGET /static/styles.css HTTP/1.1[0m" 404 -
+2024-11-22 14:34:13,582 - INFO - 127.0.0.1 - - [22/Nov/2024 14:34:13] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-11-22 14:34:13,599 - INFO - 127.0.0.1 - - [22/Nov/2024 14:34:13] "GET /two_factor HTTP/1.1" 200 -
+2024-11-22 14:34:13,637 - INFO - 127.0.0.1 - - [22/Nov/2024 14:34:13] "GET /static/qr.png HTTP/1.1" 200 -
+2024-11-22 14:37:19,275 - WARNING - Invalid OTP entered by user: pakkarim
+2024-11-22 14:37:19,276 - INFO - 127.0.0.1 - - [22/Nov/2024 14:37:19] "POST /two_factor HTTP/1.1" 200 -
+2024-11-22 14:37:19,298 - INFO - 127.0.0.1 - - [22/Nov/2024 14:37:19] "[36mGET /static/qr.png HTTP/1.1[0m" 304 -
